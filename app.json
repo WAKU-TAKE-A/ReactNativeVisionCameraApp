@@ -2,7 +2,7 @@
   "expo": {
     "name": "ReactNativeVisionCameraApp",
     "slug": "ReactNativeVisionCameraApp",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -29,6 +29,15 @@
       "eas": {
         "projectId": "be47b9da-ef7a-4071-9948-69a39e8f0837"
       }
-    }
+    },
+    "plugins": [
+      [
+        "react-native-vision-camera",
+        {
+          // ...
+          "enableCodeScanner": true
+        }
+      ]
+    ]
   }
 }
